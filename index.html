@@ -3,17 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andy's Resume | Andy Nguyen</title>
+    
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Andy's Resume | Andy Nguyen</title>
-    
   </head>
   <body>
     
-    <div id="particles-js"></div>
 
     <nav>
       <div class="nav__bar">
@@ -25,7 +24,7 @@
       <ul class="nav__links" id="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">Gallery</a></li>
-       <li><a href="#showcase">Showcase</a></li>
+        <li><a href="#showcase">Showcase</a></li>
         <li><a href="#portfolio">Character</a></li>
         <li><a href="#contact" class="btn">Contact</a></li>
       </ul>
@@ -42,7 +41,7 @@
         </div>
         <p class="section__description">
           This is a personal project from my Game Art class.
-Through this website, I aim to showcase my front-end web development skills, my eye for graphic design, and my learning journey in animation.
+          Through this website, I aim to showcase my front-end web development skills, my eye for graphic design, and my learning journey in animation.
         </p>
         <div class="header__btn">
           <button class="btn">Hire Me Now</button>
@@ -55,44 +54,43 @@ Through this website, I aim to showcase my front-end web development skills, my 
         <img src="assets/about.png" alt="about" class="about__img" />
       </div>
       <div class="about__content">
-    <h2 class="section__title">About Me</h2>
-<p class="section__description">
-  My journey into the world of Game Art began with zero experience and a strong curiosity to create. Starting from scratch, I dedicated myself to learning the fundamentals of drawing and digital art, teaching myself through online tutorials, practice, and trial-and-error. This process allowed me to gradually develop my ability to bring characters and environments to life with vibrant colors, proportions, and expressions.
-  <br /><br />
-  In parallel, I discovered Spine2D, a powerful tool for 2D skeletal animation, and committed to mastering it through self-study. Learning Spine2D enabled me to understand the principles of smooth and dynamic animation, helping me create lifelike character movements that enhance gameplay and storytelling. This hands-on experience deepened my appreciation of how animation breathes life into static art.
-  <br /><br />
-  Although the path was challenging, balancing art fundamentals with technical animation skills has shaped me into a versatile Game Artist. I’m passionate about continuing to grow, eager to contribute creatively and technically to game projects that captivate players and push the boundaries of interactive art.
-</p>
-
+        <h2 class="section__title">About Me</h2>
+        <p class="section__description">
+          My journey into the world of Game Art began with zero experience and a strong curiosity to create. Starting from scratch, I dedicated myself to learning the fundamentals of drawing and digital art, teaching myself through online tutorials, practice, and trial-and-error. This process allowed me to gradually develop my ability to bring characters and environments to life with vibrant colors, proportions, and expressions.
+          <br /><br />
+          In parallel, I discovered Spine2D, a powerful tool for 2D skeletal animation, and committed to mastering it through self-study. Learning Spine2D enabled me to understand the principles of smooth and dynamic animation, helping me create lifelike character movements that enhance gameplay and storytelling. This hands-on experience deepened my appreciation of how animation breathes life into static art.
+          <br /><br />
+          Although the path was challenging, balancing art fundamentals with technical animation skills has shaped me into a versatile Game Artist. I’m passionate about continuing to grow, eager to contribute creatively and technically to game projects that captivate players and push the boundaries of interactive art.
+        </p>
         <div class="about__btn">
           <a href="assets/andy_nguyen_cv.pdf" download class="btn">Download CV</a>
         </div>
       </div>
     </section>
 
-   <section class="section showcase" id="showcase">
-  <div class="container">
-    <div class="section__header">
-      <h2 class="section__title">Game Art Showcase</h2>
-      <p class="section__subtitle">A short demo of my creative work and projects</p>
-    </div>
-    <div class="showcase__video">
-     <video width="900" loop autoplay controls muted>
+    <section class="section__container showcase" id="showcase">
+      <div class="section__header">
+        <h2 class="section__title">Game Art Showcase</h2>
+        <p class="section__subtitle">A short demo of my creative work and projects</p>
+      </div>
 
-  <source src="assets/video.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-      </video>
+      <div class="showcase__video__wrapper">
+        <video class="showcase__video" autoplay muted loop playsinline>
+          <source src="assets/video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
 
-    </div>
-  </div>
-</section>
-
+      <div class="showcase__info">
+        <h2>Demo Reel</h2>
+        <p>A short animation showcasing 2D game character animation & design using Spine2D, Photoshop and After Effects.</p>
+      </div>
+    </section>
 
     <section class="section__container portfolio__container" id="portfolio">
       <h2 class="section__header">My 2d Character</h2>
       <p class="section__description">
-       Explore a showcase of my custom 2D characters, fully designed and illustrated by me using Photoshop. I animated each character using Spine2D to bring them to life through expressive and dynamic motion.
-
+        Explore a showcase of my custom 2D characters, fully designed and illustrated by me using Photoshop. I animated each character using Spine2D to bring them to life through expressive and dynamic motion.
       </p>
       <div class="portfolio__grid">
         <div class="portfolio__card">
@@ -153,9 +151,7 @@ Through this website, I aim to showcase my front-end web development skills, my 
       Copyright © 2025 Andy Nguyen. All rights reserved.
     </footer>
 
-    
     <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
-    <!-- Load your main.js file -->
     <script src="main.js"></script>
   </body>
 </html>

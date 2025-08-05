@@ -98,7 +98,7 @@ body::before {
 }
 
 .showcase__video {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: 2rem auto 0;
@@ -115,19 +115,12 @@ body::before {
   height: auto;
   display: block;
   position: relative; 
-  z-index: 1; 
+  z-index: 1;
 }
 
 
 
-#particles-js {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
+
 
 nav {
   position: fixed;
@@ -275,7 +268,7 @@ nav {
 .about__btn {
   text-align: center;
   position: relative;
-  z-index: 10; /* Đưa lên trên */
+  z-index: 10; 
 }
 .service__grid {
   margin-top: 2rem;
